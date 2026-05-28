@@ -6,7 +6,7 @@ function MammalsItem({image, name, nb}){
         };
     return(
         <div className="card">
-            <img src={image}/>
+            <img src={image} alt={MammalsItem.name}/>
             <h3>{name}</h3>
             <p>Number of legs:{nb}</p>
             <button onClick={message}>See more</button>
